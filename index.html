@@ -1,239 +1,595 @@
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Eddie Lemos | Desarrollador de Software"
+    />
+    <meta name="author" content="Eddie Lemos" />
     <title>Eddie Lemos | Desarrollador de software</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
-      integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
-      crossorigin="anonymous"
+      href="assets/vendors/themify-icons/css/themify-icons.css"
     />
-    <!-- <link rel="stylesheet" href="style.css" /> -->
-    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="assets/css/index.css" />
   </head>
-
-  <body>
-    <div class="background gradient">
-      <!-- Delete if animation
-        <ul class="bg-bubbles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-      -->
-    </div>
-    <div class="page">
-      <header>
-        <nav>
-          <a href="#about" class="selected" id="getAbout">
-            <span class="fas fa-user"></span>
-            <span class="link">Yo</span>
-          </a>
-          <a href="#resume" id="getResume">
-            <span class="fas fa-file"></span>
-            <span class="link">Curriculum</span>
-          </a>
-        </nav>
-      </header>
-      <main>
-        <section id="presentation" class="profile">
-          <div class="profile-background"></div>
-          <div>
-            <div class="profile-image">
-              <img
-                src="./elemoslogo.jpeg"
-                alt="Eddie Lemos"
-              />
-            </div>
-            <h1 class="profile-name" id="nombre">Eddie Lemos</h1>
-            <h2 class="profile-profession">Desarrollador de software</h2>
-            <div class="profile-social" id="profile-social">
-              <a href="https://www.linkedin.com/in/eddie-lemos/" class="fab fa-linkedin"></a>
-              <a href="https://wa.me/593958762299" class="fab fa-whatsapp"></a>
-            </div>
-          </div>
-          <div class="profile-buttons">
-            <a href="./elemoscves.pdf" download
-              >DESCARGAR CV <i class="fas fa-download"></i
+  <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <header class="header">
+      <div class="container">
+        <ul class="social-icons pt-3">
+          <li class="social-item">
+            <a
+              class="social-link text-light"
+              href="https://www.linkedin.com/in/eddie-lemos"
+              target="_blank"
+              ><i class="ti-linkedin" aria-hidden="true"></i
             ></a>
-            <a href="tel:+593958762299">CONTÁCTAME <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </section>
-        <section id="about" class="about view">
-          <article class="about-aboutMe">
-            <h3 class="title">Acerca de mí</h3>
-            <div class="line-left">
-              <p>
-                Soy un <b>Desarrollador de software</b> de 23 años especializado
-                en <b>aplicaciones web</b>, con experiencia en
-                <b>front- end y back-end</b>. Mi pasión por la tecnología y
-                adaptación a tendencias me permiten crear soluciones innovadoras
-                y eficientes en entornos exigentes.
+          </li>
+          <li class="social-item">
+            <a
+              class="social-link text-light"
+              href="https://www.youtube.com/@lemitosdev"
+              target="_blank"
+              ><i class="ti-youtube" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a
+              class="social-link text-light"
+              href="https://www.instagram.com/lemitosdev/"
+              target="_blank"
+              ><i class="ti-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="social-item">
+            <a class="social-link text-light" href="#"
+              ><i class="ti-whatsapp" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="header-content">
+          <h4 class="header-subtitle">Hola, soy</h4>
+          <h1 class="header-title">Eddie Lemos</h1>
+          <h6 class="header-mono">Desarrollador de software</h6>
+          <a
+            href="./assets/documents/elemoscves.pdf"
+            class="btn btn-primary btn-rounded"
+            download
+            ><i class="ti-printer pr-2"></i>Descargar CV</a
+          >
+        </div>
+      </div>
+    </header>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
+      data-spy="affix"
+      data-offset-top="510"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse mt-sm-20 navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Acerca de mí</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav brand">
+            <img
+              src="assets/imgs/eddie_lemos_perfil.jpeg"
+              alt="Eddie Lemos"
+              class="brand-img"
+            />
+            <li class="brand-txt">
+              <h5 class="brand-title">Eddie Lemos</h5>
+              <div class="brand-subtitle">Desarrollador de software</div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">CV</a>
+            </li>
+            <li class="nav-item last-item">
+              <a href="#contact" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div id="about" class="row about-section">
+        <div class="col-lg-4 about-card">
+          <h3 class="font-weight-light">¿Quién soy?</h3>
+          <span class="line mb-5"></span>
+          <h5 class="mb-3">
+            Desarrollador Fullstack: Construyendo Soluciones Web Integrales
+          </h5>
+          <p class="mt-20">
+            Soy Desarrollador de software de 23 años especializado en
+            aplicaciones web, con experiencia en front- end y back-end. Mi
+            pasión por la tecnología y adaptación a tendencias me permiten crear
+            soluciones innovadoras y eficientes en entornos exigentes.
+          </p>
+          <a
+            href="./assets/documents/elemoscves.pdf"
+            class="btn btn-outline-danger"
+            download=""
+            ><i class="icon-down-circled2"></i>Descargar CV</a
+          >
+        </div>
+        <div class="col-lg-4 about-card">
+          <h3 class="font-weight-light">Información personal</h3>
+          <span class="line mb-5"></span>
+          <ul class="mt40 info list-unstyled">
+            <li><span>Edad</span> : 23 años</li>
+            <li><span>Email</span> : santiledin@gmail.com</li>
+            <li><span>Teléfono</span> : + (593) 958762299</li>
+            <li><span>Dirección</span> : Quito, Ecuador</li>
+          </ul>
+          <ul class="social-icons pt-3">
+            <li class="social-item">
+              <a
+                class="social-link text-dark"
+                href="https://www.linkedin.com/in/eddie-lemos"
+                target="_blank"
+                ><i class="ti-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link text-dark"
+                href="https://www.youtube.com/@lemitosdev"
+                target="_blank"
+                ><i class="ti-youtube" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link text-dark"
+                href="https://www.instagram.com/lemitosdev/"
+                target="_blank"
+                ><i class="ti-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 about-card">
+          <h3 class="font-weight-light">Mis especialidades</h3>
+          <span class="line mb-5"></span>
+          <div class="row">
+            <div class="col-1 text-danger pt-1">
+              <i class="ti-widget icon-lg"></i>
+            </div>
+            <div class="col-10 ml-auto mr-3">
+              <h6>Desarrollo Front-End</h6>
+              <p class="subtitle">
+                Diseño y construyo interfaces de usuario atractivas, responsivas
+                y funcionales utilizando las tecnologías web más actuales.
               </p>
-              <div>
-                <div><span>Edad: </span>23 años</div>
-                <div><span>Dirección: </span>Quito, Ecuador</div>
-                <div><span>Email: </span>santiledin@gmail.com</div>
-                <div><span>Teléfono: </span>+593 958762299</div>
+              <hr />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1 text-danger pt-1">
+              <i class="ti-paint-bucket icon-lg"></i>
+            </div>
+            <div class="col-10 ml-auto mr-3">
+              <h6>Desarrollo Back-End</h6>
+              <p class="subtitle">
+                Desarrollo la estructura, lógica y bases de datos que potencian
+                aplicaciones web robustas, seguras y escalables.
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" id="resume">
+      <div class="container">
+        <h2 class="mb-5">
+          <span class="text-danger">Experiencia</span> laboral
+        </h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <div class="mt-2">
+                    <h4>Experiencia</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="title text-danger">Desarrollador de software</h6>
+                <p>Sideralsoft cia ltda</p>
+                <p>Octubre 2023 - Agosto 2024</p>
+                <p class="subtitle">
+                  Como desarrollador de software, mi función principal fue el
+                  desarrollo y mantenimiento del sistema Orion, plataforma
+                  esencial para los laboratorios clínicos del Ecuador. En este
+                  rol me dediqué a implementar actualizaciones, realizar mejoras
+                  y mantener el sistema en óptimas condiciones. Trabajé
+                  estrechamente con el equipo para asegurar que Orion operara de
+                  manera eficiente, cumpliendo con los estándares de calidad y
+                  seguridad requeridos en el sector salud. Para esto utilicé
+                  tecnologías como VUE, HTML, CSS, JavaScript, Laravel, PHP,
+                  Bootstrap y PostgreSQL, las cuales me permitieron mantener un
+                  sistema robusto y confiable.
+                </p>
+                <hr />
+                <h6 class="title text-danger">Docente</h6>
+                <p>Instituto I.S.E.C.P</p>
+                <p>Junio 2022 - Abril 2023</p>
+                <p class="subtitle">
+                  Como tutor del curso 'Diseño y Desarrollo Web', tuve el
+                  privilegio de formar a jóvenes entusiastas en el apasionante
+                  mundo de la web. Mi enfoque principal era enseñar habilidades
+                  prácticas en tecnologías fundamentales como HTML, CSS,
+                  JavaScript y el CMS WordPress. Gracias a mi guía, los
+                  estudiantes adquirieron una comprensión sólida de estos
+                  conceptos y pudieron crear y administrar sitios web con
+                  confianza. Mi pasión por compartir conocimientos y mi
+                  compromiso con el crecimiento de mis alumnos fueron elementos
+                  clave para el éxito de este rol.
+                </p>
+                <hr />
+                <h6 class="title text-danger">Pasante analista de TI</h6>
+                <p>Ministerio del deporte</p>
+                <p>Marzo 2022 - Mayo 2022</p>
+                <p class="subtitle">
+                  Durante mi pasantía en el departamento de TI del Ministerio de
+                  Deportes, me especialicé en el sistema de aplicación
+                  ciudadana, donde fui responsable de realizar actualizaciones
+                  clave para mejorar la funcionalidad y la experiencia del
+                  usuario. Además, utilicé mis habilidades de diseño gráfico
+                  para crear artes visuales que el ministerio implementó con
+                  éxito. Mi compromiso con la excelencia y mi capacidad para
+                  contribuir tanto técnica como creativamente fueron elementos
+                  esenciales para el éxito de estos proyectos.
+                </p>
               </div>
             </div>
-          </article>
-          <article class="about-services">
-            <h3 class="title">Conocimientos</h3>
-            <div class="line-left">
-              <article class="line-down">
-                <div class="fas fa-desktop"></div>
-                <h4>FRONT-END</h4>
-              </article>
-              <article class="line-down">
-                <div class="fas fa-code"></div>
-                <h4>BACK-END</h4>
-              </article>
-              <article>
-                <div class="fas fa-chart-bar"></div>
-                <h4>ANÁLISIS DE DATOS</h4>
-              </article>
-            </div>
-          </article>
-        </section>
-        <section id="resume" class="resume">
-          <h3 class="title">Curriculum</h3>
-          <article class="resume-lines">
-            <section class="resume-line line-left">
-              <h4 class="line-down">
-                <i class="fas fa-briefcase"></i> Experiencia
-              </h4>
-              <article class="line-down">
-                <div class="date active">Octubre 2023 - Agosto 2024</div>
-                <h5 class="name">Desarrollador de software</h5>
-                <h6 class="company">SIDERALSOFT CIA LTDA</h6>
-                <p>
-                  Desarrollé y mantuve Orión, un sistema clave para laboratorios
-                  clínicos en Ecuador. Implementé mejoras y aseguré su
-                  eficiencia con tecnologías como VUE, Laravel, PHP y
-                  PostgreSQL, cumpliendo estándares del sector salud.
-                </p>
-              </article>
-              <article class="line-down">
-                <div class="date active">Junio 2022 - Abril 2023</div>
-                <h5 class="name">Docente</h5>
-                <h6 class="company">INSTITUTO I.S.E.C.P</h6>
-                <p>
-                  Como docente en “Diseño y desarrollo web”, enseñé HTML, CSS,
-                  JavaScript y WordPress, guiando a jóvenes en la creación de
-                  sitios web con pasión y compromiso.
-                </p>
-              </article>
-              <article>
-                <div class="date active">Marzo 2022 - Mayo 2022</div>
-                <h5 class="name">Pasante analista de TI</h5>
-                <h6 class="company">MINISTERIO DEL DEPORTE</h6>
-                <p>
-                  En mi pasantía en TI del Ministerio del Deporte, mejoré el
-                  sistema de aplicativos ciudadanos y diseñé artes visuales
-                  exitosos, aportando con creatividad y técnica.
-                </p>
-              </article>
-            </section>
-            <section class="resume-line line-left">
-              <h4 class="line-down">
-                <i class="fas fa-university"></i> Educación
-              </h4>
-              <article class="line-down">
-                <div class="date active">2024</div>
-                <h5 class="name">
-                  Tecnología Superior en Desarrollo de Software
-                </h5>
-                <h6 class="company">
-                  Instituto Superior Para El Desarrollo ISPADE
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <div class="mt-2">
+                  <h4>Educación</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="title text-danger">
+                  Tecnología Superior En Desarrollo De Software
                 </h6>
-              </article>
-              <article class="line-down">
-                <div class="date active">2019</div>
-                <h5 class="name">
-                  Bachillerato en ciencias generales unificadas
-                </h5>
-                <h6 class="company">
-                  Unidad Educativa Particular Francisco Febres Corder La Salle
+                <p>Instituto Tecnológico Superior Para El Desarrollo ISPADE</p>
+                <p>Septiembre 2021 - Marzo 2024</p>
+                <p class="subtitle">
+                  Fuí honrado con el prestigioso certificado al Mejor Estudiante
+                  del instituto, otorgado por el Consejo de Educación Superior
+                  del Ecuador. Esto refleja la dedicación y esfuerzo que tanto
+                  yo como la institución ponemos en mi educación. Estoy
+                  orgulloso de ser un ex alumno de este instituto de excelencia
+                  que me dio las bases para alcanzar el éxito en mi carrera en
+                  el desarrollo de software.
+                </p>
+                <hr />
+                <h6 class="title text-danger">
+                  Bachiller en ciencias generales unificadas
                 </h6>
-              </article>
-            </section>
-          </article>
-          <article class="resume-skills">
-            <h3 class="title">Mis Habilidades</h3>
-            <div>
-              <section class="line-left">
-                <div class="line-down">
-                  <div>HTML</div>
-                </div>
-                <div class="line-down">
-                  <div>CSS</div>
-                </div>
-                <div class="line-down">
-                  <div>JAVASCRIPT</div>
-                </div>
-                <div class="line-down">
-                  <div>PHP</div>
-                </div>
-                <div class="line-down">
-                  <div>MYSQL</div>
-                </div>
-                <div class="line-down">
-                  <div>POSTGRESQL</div>
-                </div>
-                <div class="line-down">
-                  <div>MS OFFICE</div>
-                </div>
-                <div class="line-down">
-                  <div>CANVA</div>
-                </div>
-              </section>
-              <section class="line-left">
-                <div class="line-down">
-                  <div>LARAVEL</div>
-                </div>
-                <div class="line-down">
-                  <div>TAILWIND</div>
-                </div>
-                <div class="line-down">
-                  <div>BOOTSTRAP</div>
-                </div>
-                <div class="line-down">
-                  <div>WORDPRESS</div>
-                </div>
-                <div class="line-down">
-                  <div>GIT</div>
-                </div>
-                <div class="line-down">
-                  <div>VUE JS</div>
-                </div>
-                <div class="line-down">
-                  <div>IONIC JS</div>
-                </div>
-              </section>
+                <p>
+                  Unidad Educativa Particular Francisco Febres Cordero La Salle
+                </p>
+                <p>Septiembre 2014 - Julio 2019</p>
+                <hr />
+              </div>
             </div>
-          </article>
-        </section>
-      </main>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Conocimientos</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>HTML</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>CSS</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>JavaScript</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 95%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>PHP</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>SQL</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>Laravel</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>Bootstrap</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>Tailwind</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>GIT</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>Wordpress</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>Vue JS</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>Ionic JS</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 70%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Idiomas</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Inglés</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>Español</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section contact" id="contact">
+      <div id="map" class="map"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="contact-info-card">
+              <h4 class="contact-title">Detalles de contacto</h4>
+              <div class="row mb-2">
+                <div class="col-1 pt-1 mr-1">
+                  <i class="ti-mobile icon-md"></i>
+                </div>
+                <div class="col-10">
+                  <h6 class="d-inline">
+                    Teléfono : <br />
+                    <span class="text-muted">+ (593) 958762299</span>
+                  </h6>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-1 pt-1 mr-1">
+                  <i class="ti-map-alt icon-md"></i>
+                </div>
+                <div class="col-10">
+                  <h6 class="d-inline">
+                    Dirección :<br />
+                    <span class="text-muted">Quito, Ecuador</span>
+                  </h6>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-1 pt-1 mr-1">
+                  <i class="ti-envelope icon-md"></i>
+                </div>
+                <div class="col-10">
+                  <h6 class="d-inline">
+                    Correo electrónico :<br />
+                    <span class="text-muted">santiledin@gmail.com</span>
+                  </h6>
+                </div>
+              </div>
+              <ul class="social-icons pt-4">
+                <li class="social-item">
+                  <a
+                    class="social-link text-dark"
+                    href="https://www.linkedin.com/in/eddie-lemos"
+                    target="_blank"
+                    ><i class="ti-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    class="social-link text-dark"
+                    href="https://www.youtube.com/@lemitosdev"
+                    target="_blank"
+                    ><i class="ti-youtube" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    class="social-link text-dark"
+                    href="https://www.instagram.com/lemitosdev/"
+                    target="_blank"
+                    ><i class="ti-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="./index.js"></script>
+    <footer class="footer py-3">
+      <div class="container">
+        <p class="small mb-0 text-light">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Por
+          <a href="/" target="_blank"
+            ><span class="text-danger">Eddie Lemos</span></a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- Google mpas -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"
+    ></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
